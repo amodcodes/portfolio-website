@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: #1e293b;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    background: #1e293b;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+}
